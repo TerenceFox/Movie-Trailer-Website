@@ -46,6 +46,14 @@ minority_report = media.Movie('Minority Report(2002)',
 						'y_Report_Poster.jpg', 
 						'https://www.youtube.com/watch?v=lG7DGMgfOb8')
 
+a_scanner_darkly = media.Movie('A Scanner Darkly(2006)', 
+						'An undercover cop in a not-too-distant future becomes '
+						'involved with a dangerous new drug and begins to lose '
+						'his own identity as a result.',
+						'https://upload.wikimedia.org/wikipedia/en/7/75/A_Scann'
+						'er_Darkly_Poster.jpg', 
+						'https://www.youtube.com/watch?v=lG7DGMgfOb8')
+
 #Create a list of all of the movies
 movies = [blade_runner, total_recall, screamers, minority_report]
 
