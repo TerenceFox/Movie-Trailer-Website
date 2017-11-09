@@ -2,6 +2,7 @@ import media
 import fresh_tomatoes
 
 #Create instances for each movie to be displayed. 
+
 blade_runner = media.Movie('Blade Runner(1982)', 
 						   'A blade runner must pursue and try to terminate fou'
 						   'r replicants who stole a ship in space and have ret'
@@ -54,8 +55,17 @@ a_scanner_darkly = media.Movie('A Scanner Darkly(2006)',
 						'er_Darkly_Poster.jpg', 
 						'https://www.youtube.com/watch?v=lG7DGMgfOb8')
 
-#Create a list of all of the movies
-movies = [blade_runner, total_recall, screamers, minority_report]
+the_adjustment_bureau = media.Movie('The Adjustment Bureau(2011)', 
+						'The affair between a politician and a contemporary dan'
+						'cer is affected by mysterious forces keeping the lover'
+						's apart.',
+						'https://upload.wikimedia.org/wikipedia/en/1/1c/The_Adj'
+						'ustment_Bureau_Poster.jpg', 
+						'https://www.youtube.com/watch?v=wZJ0TP4nTaE')
 
-#Function creates html file and opens it in a web browser
+movies = [blade_runner, total_recall, screamers, minority_report, 
+		  a_scanner_darkly, the_adjustment_bureau]
+
+#Function creates html file with a tile for each movie in the list and opens it
+#in a web browser
 fresh_tomatoes.open_movies_page(movies)
