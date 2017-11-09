@@ -6,8 +6,3 @@ class Movie():
 		self.storyline = storyline
 		self.poster_image_url = poster_image
 		self.trailer_youtube_url = trailer_youtube
-
-
-
-#adding a comment line to test git
-#adding one more to make sure I know how it works

@@ -2,7 +2,7 @@ import media
 import fresh_tomatoes
 
 #Create instances for each movie to be displayed. 
-blade_runner = media.Movie('Blade Runner(1982', 
+blade_runner = media.Movie('Blade Runner(1982)', 
 						   'A blade runner must pursue and try to terminate fou'
 						   'r replicants who stole a ship in space and have ret'
 						   'urned to Earth to find their creator.',
@@ -28,5 +28,26 @@ screamers = media.Movie('Screamers(1995)',
 						'amersposter.jpg', 
 						'https://www.youtube.com/watch?v=WksPMueXkP4')
 
-movies = [blade_runner, total_recall, screamers]
+minority_report = media.Movie('Minority Report(2002)', 
+						'In a future where a special police unit is able to arr'
+						'st murderers before they commit their crimes, an offic'
+						'er from that unit is himself accused of a future murde'
+						'r.',
+						'https://upload.wikimedia.org/wikipedia/en/4/44/Minorit'
+						'y_Report_Poster.jpg', 
+						'https://www.youtube.com/watch?v=lG7DGMgfOb8')
+
+minority_report = media.Movie('Minority Report(2002)', 
+						'In a future where a special police unit is able to arr'
+						'st murderers before they commit their crimes, an offic'
+						'er from that unit is himself accused of a future murde'
+						'r.',
+						'https://upload.wikimedia.org/wikipedia/en/4/44/Minorit'
+						'y_Report_Poster.jpg', 
+						'https://www.youtube.com/watch?v=lG7DGMgfOb8')
+
+#Create a list of all of the movies
+movies = [blade_runner, total_recall, screamers, minority_report]
+
+#Function creates html file and opens it in a web browser
 fresh_tomatoes.open_movies_page(movies)
